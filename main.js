@@ -1,6 +1,6 @@
 // Task 1
 // ----------------------------------------------------------
-const categoryList = [...document.querySelectorAll('#categories')];
+const categoryList = document.querySelectorAll('[#categories]');
 
 
 categoryList.forEach(category => {
